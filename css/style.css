@@ -1,0 +1,46 @@
+li {
+    list-style: none;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+a.link-delete {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+table {
+    width: 500px;
+    text-align: center;
+    border-collapse: collapse;
+    background: linear-gradient(#80FFDB, #64DFDF, #48BFE3, #5390D9, #5E60CE)
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #5E60CE;
+    color: white;
+    width: 5rem;
+    height: 1.5rem;
+    border: 2px solid #1014c9;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+button:hover{
+    background-color: #64DFDF;
+    color: black;
+}
+.link-delete{
+    color: red;
+    font-size: 30px;
+}
